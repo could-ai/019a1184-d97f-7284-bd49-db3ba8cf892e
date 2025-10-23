@@ -1,16 +1,23 @@
-# couldai_user_app
+# NutriGuia Web App
 
-A new Flutter project.
+Um guia visual e amigável sobre alimentos, classificados por seus principais macronutrientes, para ajudar usuários a fazerem escolhas alimentares conscientes.
 
-## Getting Started
+## Recursos
 
-This project is a starting point for a Flutter application.
+- **Página Principal**: Hero section com título acolhedor e cards para cada categoria de macronutrientes.
+- **Páginas de Categorias**: Listas organizadas de alimentos com informações nutricionais.
+- **Design Moderno**: Interface limpa e encorajadora com paleta de cores específica.
+- **Ordenação**: Permite ordenar alimentos por nome ou quantidade de nutriente.
 
-A few resources to get you started if this is your first Flutter project:
+## Design System
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cores**: Verde nutrição (#4CAF50), Laranja energia (#FF9800), Fundo cinza claro (#F4F6F8), Texto cinza escuro (#333333), Branco (#FFFFFF)
+- **Tipografia**: Poppins (negrito) para cabeçalhos, Inter (regular) para corpo do texto
+- **Ícones e Gráficos**: Ilustrações vetoriais estilizadas para alimentos (atualmente usando emojis como placeholders)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Executar
+
+1. Instale as dependências: `flutter pub get`
+2. Execute o app: `flutter run`
+
+Para web: `flutter run -d chrome`
